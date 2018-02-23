@@ -1,29 +1,27 @@
 # Overview
 
-Song Exploder Presents: Inside Music is a [WebVR Experiment](https://webvrexperiments.com) that lets you step inside a song, giving you a closer look at how music is made.
-
-The audio of the featured artists and voice over is not included in this repo. To add your own audio and play it in this experiment follow the instructions below.
+Health∞ Training360 is a WebVR experiment that lets medical professionals step inside training procedures, giving them a different perspective when preparing for different life-saving procedures.
 
 This is an Experiment, not a Google product.
 
 ## Technology
 
-Inside Music is built with [aframe](https://aframe.io), [THREE.JS](https://threejs.org) and [Tone.js](https://tonejs.github.io/).
+Training360 is built with [aframe](https://aframe.io), [THREE.JS](https://threejs.org) and [Tone.js](https://tonejs.github.io/).
 
 ## Contributors
 
-* [@hapticdata](https://github.com/hapticdata)
-* [@tambien](https://github.com/tambien)
-* [@ryburke](https://github.com/ryburke)
-* [@alexanderchen](https://github.com/alexanderchen)
+* [@emelleme](https://github.com/emelleme)
+* [@dilanpatel](https://github.com/)
+* [@joshgruber](https://github.com/)
+* [@dommolandro](https://github.com/)
 
 ## Interaction
 
-Select a song from the menu. The stems of the song will appear in a circle around you, each represented by a sphere. In _360 Mode_, tap the spheres to turn them on or off. In _VR Mode_, you can use your controller to toggle their state. On Google Cardboard, you will have a retical (a small circle in front of you eye) which can be used to turn the stems on and off.
+Select a procedure from the menu. The experience will begin with an introduction by Dr. Gruber. In _360 Mode_, say "pause" anytime to pause the experience, or "play" to continue. In _VR Mode_, you can use your controller to toggle their state. On Google Cardboard, you will have a retical (a small circle in front of you eye) which can be used for some interaction.
 
 ## Build
 
-To build a local version of Inside Music, you will need to have Node.js and [webpack](https://webpack.github.io/) installed.
+To build a local version of Training360, you will need to have Node.js and [webpack](https://webpack.github.io/) installed.
 
 In the terminal, inside the project's directory, install all of the project's dependencies:
 
@@ -41,11 +39,11 @@ You can now run a local server such as `http-server`. To install `http-server`, 
 
 NOTE: You'll have to add your own audio files for the experiment to work.
 
-## Exploring your own music in VR
+## Generating your own procedures for Health∞ Training360
 
-We hope this experiment inspires musicians and coders to explore their own music in VR. Here's a step-by-step guide to bringing your own music into VR, using the open-source code from the Inside Music experiment. The application supports anywhere from 1-7 stems.
+We hope this experiment inspires doctors and other medical practitioners to build their own training programs in VR. Here's a step-by-step guide to bringing your own training experience into VR, using the open-source code from the Inside Music experiment. The application supports anywhere from 1-7 stems.
 
-### Preparing your stems
+### TODO: Outline steps for creating Training360 modules
 
 First, export the stems of your song as `wav` and so that they all line up at the beginning. Create a folder for your song in the `audio/stems` folder. For example our demo song is called 'drumming'.
 
